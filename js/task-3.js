@@ -3,7 +3,7 @@ const elementInput = document.querySelector('#name-input');
 const elementOutput = document.querySelector('#name-output');
 
 
-elementInput.addEventListener('name-input', update);
+elementInput.addEventListener('input', update);
 
 
 function update(event) {
